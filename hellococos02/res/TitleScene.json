@@ -1,6 +1,6 @@
 {
-  "ID": "2610186c-7c26-4b57-ad5e-a427784b03ae",
-  "Version": "2.3.2.3",
+  "ID": "c758bd25-ed1b-4a43-9b79-b606945a3da6",
+  "Version": "2.3.1.1",
   "Name": "TitleScene",
   "Content": {
     "Content": {
@@ -12,7 +12,7 @@
       },
       "AnimationList": [],
       "ObjectData": {
-        "Tag": 13,
+        "Tag": 27,
         "Children": [
           {
             "FileData": {
@@ -46,63 +46,14 @@
               "X": 0.0,
               "Y": 0.0
             },
-            "Tag": 14,
-            "ActionTag": -576226940,
+            "Tag": 28,
+            "ActionTag": 835790060,
             "Size": {
               "X": 640.0,
               "Y": 960.0
             },
             "Name": "SpriteBackground",
             "ctype": "SpriteObjectData"
-          },
-          {
-            "FontSize": 72,
-            "LabelText": "タイトル画面",
-            "OutlineColor": {
-              "G": 0,
-              "B": 0
-            },
-            "ShadowColor": {
-              "R": 110,
-              "G": 110,
-              "B": 110
-            },
-            "ShadowOffsetX": 2.0,
-            "ShadowOffsetY": -2.0,
-            "AnchorPoint": {
-              "ScaleX": 0.5,
-              "ScaleY": 0.5
-            },
-            "Position": {
-              "X": 318.0,
-              "Y": 840.0
-            },
-            "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
-            },
-            "CColor": {},
-            "IconVisible": false,
-            "PrePosition": {
-              "X": 0.4969,
-              "Y": 0.875
-            },
-            "PreSize": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LeftMargin": 149.5,
-            "RightMargin": 153.5,
-            "TopMargin": 79.5,
-            "BottomMargin": 799.5,
-            "Tag": 15,
-            "ActionTag": 2033379555,
-            "Size": {
-              "X": 429.0,
-              "Y": 81.0
-            },
-            "Name": "TextTitle",
-            "ctype": "TextObjectData"
           },
           {
             "FontSize": 24,
@@ -170,14 +121,63 @@
             "RightMargin": 200.0,
             "TopMargin": 800.0,
             "BottomMargin": 80.0,
-            "Tag": 16,
-            "ActionTag": -1149935011,
+            "Tag": 30,
+            "ActionTag": -1479754218,
             "Size": {
               "X": 240.0,
               "Y": 80.0
             },
             "Name": "ButtonToMain",
             "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 72,
+            "LabelText": "タイトル画面",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 840.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.875
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 260.5,
+            "RightMargin": 260.5,
+            "TopMargin": 108.5,
+            "BottomMargin": 828.5,
+            "Tag": 31,
+            "ActionTag": -64475262,
+            "Size": {
+              "X": 429.0,
+              "Y": 81.0
+            },
+            "Name": "TextTitle",
+            "ctype": "TextObjectData"
           }
         ],
         "Size": {

@@ -1,6 +1,6 @@
 {
   "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
-  "Version": "2.3.2.3",
+  "Version": "2.3.1.1",
   "Name": "MainScene",
   "Content": {
     "Content": {
@@ -20,7 +20,7 @@
               "Plist": ""
             },
             "BlendFunc": {
-              "Src": 770,
+              "Src": 1,
               "Dst": 771
             },
             "AnchorPoint": {
@@ -42,11 +42,11 @@
               "Y": 0.5
             },
             "PreSize": {
-              "X": 1.0,
-              "Y": 1.0
+              "X": 0.0,
+              "Y": 0.0
             },
-            "Tag": 5,
-            "ActionTag": -620272433,
+            "Tag": 35,
+            "ActionTag": -1056348467,
             "Size": {
               "X": 640.0,
               "Y": 960.0
@@ -80,8 +80,8 @@
               "X": 1.0,
               "Y": 1.0
             },
-            "Tag": 230,
-            "ActionTag": -404926644,
+            "Tag": 36,
+            "ActionTag": 1824136544,
             "Size": {
               "X": 640.0,
               "Y": 960.0
