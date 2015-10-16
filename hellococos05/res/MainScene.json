@@ -1,0 +1,181 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "2.3.1.1",
+  "Name": "MainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "HelloWorld.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 480.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 5,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ground.png",
+                  "Plist": "Plist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 320.0,
+                  "Y": 25.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.026
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "TopMargin": 910.0,
+                "Tag": 17,
+                "ActionTag": -402929606,
+                "Size": {
+                  "X": 640.0,
+                  "Y": 50.0
+                },
+                "Name": "SpriteGround",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -620272433,
+            "Size": {
+              "X": 640.0,
+              "Y": 960.0
+            },
+            "Name": "Default",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "CheckedState": true,
+            "NormalBackFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "checkbox_normal.png",
+              "Plist": "Plist.plist"
+            },
+            "PressedBackFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "checkbox_pressed.png",
+              "Plist": "Plist.plist"
+            },
+            "DisableBackFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "checkbox_disabled.png",
+              "Plist": "Plist.plist"
+            },
+            "NodeNormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "check_normal.png",
+              "Plist": "Plist.plist"
+            },
+            "NodeDisableFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "check_disabled.png",
+              "Plist": "Plist.plist"
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 50.0,
+              "Y": 910.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0781,
+              "Y": 0.9479
+            },
+            "PreSize": {
+              "X": 0.0781,
+              "Y": 0.0521
+            },
+            "LeftMargin": 25.0,
+            "RightMargin": 565.0,
+            "TopMargin": 25.0,
+            "BottomMargin": 885.0,
+            "Tag": 18,
+            "ActionTag": 1466443483,
+            "Size": {
+              "X": 50.0,
+              "Y": 50.0
+            },
+            "Name": "CheckBoxDebugNode",
+            "ctype": "CheckBoxObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 960.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "HelloWorld.png",
+        "Plist.plist",
+        "Plist.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}
