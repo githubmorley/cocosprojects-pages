@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>new_base.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{154,605},{111,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{111,48}</string>
+			</dict>
+			<key>new_clip.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{290,390},{111,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{111,48}</string>
+			</dict>
+			<key>button_clip.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,675},{240,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{240,80}</string>
+			</dict>
+			<key>new_light.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{217,390},{69,98}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{69,98}</string>
+			</dict>
+			<key>button_light.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,306},{211,211}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{211,211}</string>
+			</dict>
+			<key>button_front.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{154,521},{240,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{240,80}</string>
+			</dict>
+			<key>button_base.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{217,306},{240,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{240,80}</string>
+			</dict>
+			<key>chara_clip.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,521},{148,150}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{148,150}</string>
+			</dict>
+			<key>wall.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{300,300}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{300,300}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist.png</string>
+			<key>size</key>
+			<string>{512,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>
