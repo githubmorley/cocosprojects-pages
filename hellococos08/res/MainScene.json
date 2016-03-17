@@ -1,0 +1,1055 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "2.3.3.0",
+  "Name": "MainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "HelloWorld.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 480.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 5,
+            "ActionTag": -620272433,
+            "Size": {
+              "X": 640.0,
+              "Y": 960.0
+            },
+            "Name": "Default",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "ItemMargin": 30,
+            "DirectionType": "Vertical",
+            "HorizontalType": "Align_HorizontalCenter",
+            "IsBounceEnabled": true,
+            "ScrollDirectionType": 0,
+            "ClipAble": true,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 150
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 480.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7813,
+              "Y": 0.5208
+            },
+            "LeftMargin": 70.0,
+            "RightMargin": 70.0,
+            "TopMargin": 230.0,
+            "BottomMargin": 230.0,
+            "Tag": 3,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "panel.png",
+                  "Plist": "Plist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 94,
+                "Scale9OriginY": 33,
+                "Scale9Width": 99,
+                "Scale9Height": 34,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 250.0,
+                  "Y": 755.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9372
+                },
+                "PreSize": {
+                  "X": 0.96,
+                  "Y": 0.1256
+                },
+                "LeftMargin": 10.0,
+                "RightMargin": 10.0,
+                "BottomMargin": 766.0,
+                "Tag": 123,
+                "Children": [
+                  {
+                    "LabelText": "ステージ：01",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "fontStage.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 330.0,
+                      "Y": 55.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6875,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.5,
+                      "Y": 0.4182
+                    },
+                    "LeftMargin": 210.0,
+                    "RightMargin": 30.0,
+                    "TopMargin": 32.0,
+                    "BottomMargin": 32.0,
+                    "Tag": 124,
+                    "ActionTag": 1066147133,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 46.0
+                    },
+                    "Name": "BitmapFontLabelStage",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "難易度：★★★",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "fontCaption.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 30.0,
+                      "Y": 22.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0625,
+                      "Y": 0.2
+                    },
+                    "PreSize": {
+                      "X": 0.3646,
+                      "Y": 0.2455
+                    },
+                    "LeftMargin": 30.0,
+                    "RightMargin": 275.0,
+                    "TopMargin": 61.0,
+                    "BottomMargin": 22.0,
+                    "Tag": 125,
+                    "ActionTag": 1244129172,
+                    "Size": {
+                      "X": 175.0,
+                      "Y": 27.0
+                    },
+                    "Name": "BitmapFontLabelLevel",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 1476388968,
+                "Size": {
+                  "X": 480.0,
+                  "Y": 110.0
+                },
+                "Name": "ImagePanel_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "panel.png",
+                  "Plist": "Plist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 94,
+                "Scale9OriginY": 33,
+                "Scale9Width": 99,
+                "Scale9Height": 34,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 250.0,
+                  "Y": 615.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7774
+                },
+                "PreSize": {
+                  "X": 0.96,
+                  "Y": 0.1256
+                },
+                "LeftMargin": 10.0,
+                "RightMargin": 10.0,
+                "TopMargin": 140.0,
+                "BottomMargin": 626.0,
+                "Tag": 219,
+                "Children": [
+                  {
+                    "LabelText": "ステージ：01",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "fontStage.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 330.0,
+                      "Y": 55.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6875,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.5,
+                      "Y": 0.4182
+                    },
+                    "LeftMargin": 210.0,
+                    "RightMargin": 30.0,
+                    "TopMargin": 32.0,
+                    "BottomMargin": 32.0,
+                    "Tag": 220,
+                    "ActionTag": -83670714,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 46.0
+                    },
+                    "Name": "BitmapFontLabelStage",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "難易度：★★★",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "fontCaption.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 30.0,
+                      "Y": 22.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0625,
+                      "Y": 0.2
+                    },
+                    "PreSize": {
+                      "X": 0.3646,
+                      "Y": 0.2455
+                    },
+                    "LeftMargin": 30.0,
+                    "RightMargin": 275.0,
+                    "TopMargin": 61.0,
+                    "BottomMargin": 22.0,
+                    "Tag": 221,
+                    "ActionTag": 1327029390,
+                    "Size": {
+                      "X": 175.0,
+                      "Y": 27.0
+                    },
+                    "Name": "BitmapFontLabelLevel",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 1027452913,
+                "ZOrder": 1,
+                "Size": {
+                  "X": 480.0,
+                  "Y": 110.0
+                },
+                "Name": "ImagePanel_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "panel.png",
+                  "Plist": "Plist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 94,
+                "Scale9OriginY": 33,
+                "Scale9Width": 99,
+                "Scale9Height": 34,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 250.0,
+                  "Y": 475.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6176
+                },
+                "PreSize": {
+                  "X": 0.96,
+                  "Y": 0.1256
+                },
+                "LeftMargin": 10.0,
+                "RightMargin": 10.0,
+                "TopMargin": 280.0,
+                "BottomMargin": 486.0,
+                "Tag": 222,
+                "Children": [
+                  {
+                    "LabelText": "ステージ：01",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "fontStage.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 330.0,
+                      "Y": 55.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6875,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.5,
+                      "Y": 0.4182
+                    },
+                    "LeftMargin": 210.0,
+                    "RightMargin": 30.0,
+                    "TopMargin": 32.0,
+                    "BottomMargin": 32.0,
+                    "Tag": 223,
+                    "ActionTag": 1612517401,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 46.0
+                    },
+                    "Name": "BitmapFontLabelStage",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "難易度：★★★",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "fontCaption.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 30.0,
+                      "Y": 22.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0625,
+                      "Y": 0.2
+                    },
+                    "PreSize": {
+                      "X": 0.3646,
+                      "Y": 0.2455
+                    },
+                    "LeftMargin": 30.0,
+                    "RightMargin": 275.0,
+                    "TopMargin": 61.0,
+                    "BottomMargin": 22.0,
+                    "Tag": 224,
+                    "ActionTag": 376513582,
+                    "Size": {
+                      "X": 175.0,
+                      "Y": 27.0
+                    },
+                    "Name": "BitmapFontLabelLevel",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -810245236,
+                "ZOrder": 2,
+                "Size": {
+                  "X": 480.0,
+                  "Y": 110.0
+                },
+                "Name": "ImagePanel_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "panel.png",
+                  "Plist": "Plist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 94,
+                "Scale9OriginY": 33,
+                "Scale9Width": 99,
+                "Scale9Height": 34,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 250.0,
+                  "Y": 335.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4578
+                },
+                "PreSize": {
+                  "X": 0.96,
+                  "Y": 0.1256
+                },
+                "LeftMargin": 10.0,
+                "RightMargin": 10.0,
+                "TopMargin": 420.0,
+                "BottomMargin": 346.0,
+                "Tag": 225,
+                "Children": [
+                  {
+                    "LabelText": "ステージ：01",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "fontStage.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 330.0,
+                      "Y": 55.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6875,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.5,
+                      "Y": 0.4182
+                    },
+                    "LeftMargin": 210.0,
+                    "RightMargin": 30.0,
+                    "TopMargin": 32.0,
+                    "BottomMargin": 32.0,
+                    "Tag": 226,
+                    "ActionTag": 2078750977,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 46.0
+                    },
+                    "Name": "BitmapFontLabelStage",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "難易度：★★★",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "fontCaption.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 30.0,
+                      "Y": 22.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0625,
+                      "Y": 0.2
+                    },
+                    "PreSize": {
+                      "X": 0.3646,
+                      "Y": 0.2455
+                    },
+                    "LeftMargin": 30.0,
+                    "RightMargin": 275.0,
+                    "TopMargin": 61.0,
+                    "BottomMargin": 22.0,
+                    "Tag": 227,
+                    "ActionTag": 1657072869,
+                    "Size": {
+                      "X": 175.0,
+                      "Y": 27.0
+                    },
+                    "Name": "BitmapFontLabelLevel",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 1584131311,
+                "ZOrder": 3,
+                "Size": {
+                  "X": 480.0,
+                  "Y": 110.0
+                },
+                "Name": "ImagePanel_3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "panel.png",
+                  "Plist": "Plist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 94,
+                "Scale9OriginY": 33,
+                "Scale9Width": 99,
+                "Scale9Height": 34,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 250.0,
+                  "Y": 195.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2979
+                },
+                "PreSize": {
+                  "X": 0.96,
+                  "Y": 0.1256
+                },
+                "LeftMargin": 10.0,
+                "RightMargin": 10.0,
+                "TopMargin": 560.0,
+                "BottomMargin": 206.0,
+                "Tag": 228,
+                "Children": [
+                  {
+                    "LabelText": "ステージ：01",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "fontStage.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 330.0,
+                      "Y": 55.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6875,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.5,
+                      "Y": 0.4182
+                    },
+                    "LeftMargin": 210.0,
+                    "RightMargin": 30.0,
+                    "TopMargin": 32.0,
+                    "BottomMargin": 32.0,
+                    "Tag": 229,
+                    "ActionTag": -393996249,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 46.0
+                    },
+                    "Name": "BitmapFontLabelStage",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "難易度：★★★",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "fontCaption.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 30.0,
+                      "Y": 22.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0625,
+                      "Y": 0.2
+                    },
+                    "PreSize": {
+                      "X": 0.3646,
+                      "Y": 0.2455
+                    },
+                    "LeftMargin": 30.0,
+                    "RightMargin": 275.0,
+                    "TopMargin": 61.0,
+                    "BottomMargin": 22.0,
+                    "Tag": 230,
+                    "ActionTag": 1727818980,
+                    "Size": {
+                      "X": 175.0,
+                      "Y": 27.0
+                    },
+                    "Name": "BitmapFontLabelLevel",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 252218405,
+                "ZOrder": 4,
+                "Size": {
+                  "X": 480.0,
+                  "Y": 110.0
+                },
+                "Name": "ImagePanel_4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "panel.png",
+                  "Plist": "Plist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 94,
+                "Scale9OriginY": 33,
+                "Scale9Width": 99,
+                "Scale9Height": 34,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 250.0,
+                  "Y": 55.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1381
+                },
+                "PreSize": {
+                  "X": 0.96,
+                  "Y": 0.1256
+                },
+                "LeftMargin": 10.0,
+                "RightMargin": 10.0,
+                "TopMargin": 700.0,
+                "BottomMargin": 66.0,
+                "Tag": 231,
+                "Children": [
+                  {
+                    "LabelText": "ステージ：01",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "fontStage.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 330.0,
+                      "Y": 55.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6875,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.5,
+                      "Y": 0.4182
+                    },
+                    "LeftMargin": 210.0,
+                    "RightMargin": 30.0,
+                    "TopMargin": 32.0,
+                    "BottomMargin": 32.0,
+                    "Tag": 232,
+                    "ActionTag": -1234297065,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 46.0
+                    },
+                    "Name": "BitmapFontLabelStage",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "難易度：★★★",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "fontCaption.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 30.0,
+                      "Y": 22.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0625,
+                      "Y": 0.2
+                    },
+                    "PreSize": {
+                      "X": 0.3646,
+                      "Y": 0.2455
+                    },
+                    "LeftMargin": 30.0,
+                    "RightMargin": 275.0,
+                    "TopMargin": 61.0,
+                    "BottomMargin": 22.0,
+                    "Tag": 233,
+                    "ActionTag": 1115124656,
+                    "Size": {
+                      "X": 175.0,
+                      "Y": 27.0
+                    },
+                    "Name": "BitmapFontLabelLevel",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -1779407886,
+                "ZOrder": 5,
+                "Size": {
+                  "X": 480.0,
+                  "Y": 110.0
+                },
+                "Name": "ImagePanel_5",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 2102121084,
+            "Size": {
+              "X": 500.0,
+              "Y": 500.0
+            },
+            "Name": "ListView",
+            "ctype": "ListViewObjectData"
+          },
+          {
+            "FontSize": 48,
+            "LabelText": "ステージ：01",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 840.0
+            },
+            "Scale": {
+              "ScaleX": 0.9111,
+              "ScaleY": 0.8571
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.875
+            },
+            "PreSize": {
+              "X": 0.4578,
+              "Y": 0.0562
+            },
+            "LeftMargin": 173.5,
+            "RightMargin": 173.5,
+            "TopMargin": 93.0,
+            "BottomMargin": 813.0,
+            "Tag": 101,
+            "ActionTag": 1883612161,
+            "Size": {
+              "X": 293.0,
+              "Y": 54.0
+            },
+            "Name": "LabelStage",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 24,
+            "ButtonText": "トップへ移動",
+            "TextColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 120.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.125
+            },
+            "PreSize": {
+              "X": 0.375,
+              "Y": 0.0833
+            },
+            "LeftMargin": 200.0,
+            "RightMargin": 200.0,
+            "TopMargin": 800.0,
+            "BottomMargin": 80.0,
+            "Tag": 103,
+            "ActionTag": 1852988947,
+            "Size": {
+              "X": 240.0,
+              "Y": 80.0
+            },
+            "Name": "ButtonTop",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 960.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "Default/Button_Normal.png",
+        "Default/Button_Press.png",
+        "fontCaption.fnt",
+        "fontCaption.png",
+        "fontStage.fnt",
+        "fontStage.png",
+        "HelloWorld.png",
+        "Plist.plist",
+        "Plist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}
