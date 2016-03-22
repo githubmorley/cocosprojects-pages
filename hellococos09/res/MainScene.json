@@ -56,7 +56,7 @@
           },
           {
             "FontSize": 36,
-            "LabelText": "前回の起動時間：初回起動",
+            "LabelText": "前回の起動時間：00:00:00",
             "HorizontalAlignmentType": "HT_Center",
             "OutlineColor": {
               "G": 0,
@@ -92,17 +92,17 @@
               "Y": 0.875
             },
             "PreSize": {
-              "X": 0.675,
+              "X": 0.6687,
               "Y": 0.0437
             },
-            "LeftMargin": 104.0,
-            "RightMargin": 104.0,
+            "LeftMargin": 106.0,
+            "RightMargin": 106.0,
             "TopMargin": 99.0,
             "BottomMargin": 819.0,
             "Tag": 17,
             "ActionTag": -2033633211,
             "Size": {
-              "X": 432.0,
+              "X": 428.0,
               "Y": 42.0
             },
             "Name": "LabelTime",
