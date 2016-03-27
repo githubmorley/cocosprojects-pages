@@ -1,0 +1,74 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "2.3.3.0",
+  "Name": "MainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "LabelText": "########",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fontGame.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 800.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.8333
+            },
+            "PreSize": {
+              "X": 0.4266,
+              "Y": 0.0344
+            },
+            "LeftMargin": 184.5,
+            "RightMargin": 184.5,
+            "TopMargin": 160.0,
+            "BottomMargin": 768.0,
+            "Tag": 11,
+            "ActionTag": 1718558354,
+            "Size": {
+              "X": 271.0,
+              "Y": 32.0
+            },
+            "Name": "BitmapFontLabel",
+            "ctype": "TextBMFontObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 960.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "fontGame.fnt",
+        "fontGame.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}
