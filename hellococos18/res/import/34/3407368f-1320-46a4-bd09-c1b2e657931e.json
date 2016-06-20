@@ -1,0 +1,11 @@
+{
+  "__type__": "cc.TiledMapAsset",
+  "_name": "stage",
+  "tmxXmlStr": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<map version=\"1.0\" orientation=\"orthogonal\" renderorder=\"right-down\" width=\"16\" height=\"16\" tilewidth=\"32\" tileheight=\"32\" nextobjectid=\"16\">\n <tileset firstgid=\"1\" name=\"LevelObjectTiles\" tilewidth=\"32\" tileheight=\"32\" tilecount=\"264\" columns=\"12\">\n  <image source=\"LevelObjectTiles.png\" width=\"384\" height=\"704\"/>\n </tileset>\n <layer name=\"map1\" width=\"16\" height=\"16\">\n  <data encoding=\"base64\" compression=\"zlib\">\n   eJzjYGRg4BjFo3gUj0gMABYOCQE=\n  </data>\n </layer>\n <objectgroup name=\"object1\">\n  <object id=\"1\" name=\"polyline1\" type=\"polyline\" x=\"0\" y=\"0\">\n   <polyline points=\"0,0 0,448\"/>\n  </object>\n  <object id=\"3\" name=\"polyline2\" type=\"polyline\" x=\"0\" y=\"448\">\n   <polyline points=\"0,0 160,0 160,-32 192,-32 192,-64 224,-64 224,-96 288,-96 384,0 512,0\"/>\n  </object>\n  <object id=\"4\" name=\"polyline3\" type=\"polyline\" x=\"512\" y=\"0\">\n   <polyline points=\"0,0 0,448\"/>\n  </object>\n  <object id=\"5\" name=\"box1\" type=\"box\" x=\"32\" y=\"160\" width=\"128\" height=\"32\"/>\n  <object id=\"7\" name=\"circle1\" type=\"circle\" x=\"224\" y=\"160\" width=\"64\" height=\"64\">\n   <ellipse/>\n  </object>\n  <object id=\"15\" name=\"polygon1\" type=\"polygon\" x=\"416\" y=\"128\">\n   <polygon points=\"0,0 32,0 32,96 -64,96 -64,64\"/>\n  </object>\n </objectgroup>\n</map>\n",
+  "tmxFolderPath": "Texture",
+  "textures": [
+    {
+      "__uuid__": "54350ac2-d33d-42c0-a96a-11a51fbb221e"
+    }
+  ]
+}
